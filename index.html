@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+	<head>
+		<!-- Meta informations about website -->
+		<title>Wyżal Się</title>
+		<meta name="Keywords" content="żale, rozmowa, wpisy, zdenerwowało, zawiodło" />
+		<meta name="Description" content="Chcesz się wyżalić, coś Cię zdenerwowało lub zawiodło. Podziel się wszystkim z Twojego dnia - rozmowa pomaga." />
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<!-- Location of Cascade Style Sheets -->
+		<link rel="Stylesheet" type="text/css" href="css/style.css" />
+		<link href='http://fonts.googleapis.com/css?family=Lato|Josefin+Sans&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+	</head>
+	
+	<body>
+			<!-- Main cointainer with all others elements -->
+			<div id="container">
+				<!-- Header and navigation of website -->
+				<header>
+					<div id="log">Logo serwisu</div>
+					
+					<nav>
+					
+						<ul id="menu">
+							<li><a href="index.html">NAJNOWSZE WPISY</a></li>
+							<li><a href="addenter.html">DODAJ WPIS</a></li>
+							<li><a href="old.html">ARCHIWUM</a></li>
+							<li><a href="about.html">O PROJEKCIE</a></li>
+							<li><a href="contact.html">KONTAKT</a></li>
+						</ul>
+						
+					</nav>
+					
+				</header>
+				<!-- In this place starts article with all enteris -->
+				<main>
+				
+					<article>
+					
+						<div id="content">
+						
+							<section>
+								<header>
+									<h2 id="hd">Najnowsze wpisy</h2>
+								</header>
+							</section>
+							
+							<section class="wpis">
+							
+								<div class="date"><time datetime="2018-08-05 07:19"><i>5 sierpnia 2018, godz. 7.19</i></time></div>
+								<div class="nick">Anonim</div>
+								<div style="clear: both;"></div>
+								
+								<div class="text">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus egestas augue vel ipsum congue iaculis. Nulla tempor lorem pretium congue volutpat. Aliquam ut quam a urna commodo sagittis. Aliquam turpis mauris, commodo vel neque a, finibus porttitor erat. Nulla volutpat tellus eget condimentum placerat. Sed in lacus lacus. Vestibulum ante ante, congue ut rutrum vel, porttitor non enim. Nam rutrum libero placerat tellus varius ullamcorper. Suspendisse potenti. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In lobortis felis eget consequat varius. Morbi blandit lectus id nisl ultrices porta. 
+									Curabitur pharetra libero libero, eget rutrum dolor vulputate at. Vivamus augue lacus, fringilla sit amet mi in, porttitor cursus odio. Nulla laoreet ex sit amet sapien tempor, sit amet facilisis ipsum vulputate. Morbi at lacus est. Sed tincidunt purus maximus vehicula interdum.
+								</div>
+								
+							</section>
+							
+							<section class="wpis">
+							
+								<div class="date"><time datetime="2018-07-28 20:07"><i>28 lipca 2018, godz. 20.07</i></time></div>
+								<div class="nick">Anonim</div>
+								<div style="clear: both;"></div>
+								
+								<div class="text">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus egestas augue vel ipsum congue iaculis. Nulla tempor lorem pretium congue volutpat. Aliquam ut quam a urna commodo sagittis. Aliquam turpis mauris, commodo vel neque a, finibus porttitor erat. Nulla volutpat tellus eget condimentum placerat. Sed in lacus lacus. Vestibulum ante ante, congue ut rutrum vel, porttitor non enim. Nam rutrum libero placerat tellus varius ullamcorper. Suspendisse potenti. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In lobortis felis eget consequat varius. Morbi blandit lectus id nisl ultrices porta. 
+									Curabitur pharetra libero libero, eget rutrum dolor vulputate at. Vivamus augue lacus, fringilla sit amet mi in, porttitor cursus odio. Nulla laoreet ex sit amet sapien tempor, sit amet facilisis ipsum vulputate. Morbi at lacus est. Sed tincidunt purus maximus vehicula interdum.
+								</div>
+								
+							</section>
+							
+							<section class="wpis">
+							
+								<div class="date"><time datetime="2018-07-14 12:47"><i>14 lipca 2018, godz. 12.47</i></time></div>
+								<div class="nick">Anonim</div>
+								<div style="clear: both;"></div>
+								
+								<div class="text" style="border-bottom: none; margin-bottom: 0;">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus egestas augue vel ipsum congue iaculis. Nulla tempor lorem pretium congue volutpat. Aliquam ut quam a urna commodo sagittis. Aliquam turpis mauris, commodo vel neque a, finibus porttitor erat. Nulla volutpat tellus eget condimentum placerat. Sed in lacus lacus. Vestibulum ante ante, congue ut rutrum vel, porttitor non enim. Nam rutrum libero placerat tellus varius ullamcorper. Suspendisse potenti. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In lobortis felis eget consequat varius. Morbi blandit lectus id nisl ultrices porta. 
+									Curabitur pharetra libero libero, eget rutrum dolor vulputate at. Vivamus augue lacus, fringilla sit amet mi in, porttitor cursus odio. Nulla laoreet ex sit amet sapien tempor, sit amet facilisis ipsum vulputate. Morbi at lacus est. Sed tincidunt purus maximus vehicula interdum.
+								</div>
+								
+								<form style="margin-left: 10px; margin-right: 10px; width: 920px; height: 20px;">
+									<input id="butt1" name="prev" type="button" value="Poprzednie" disabled="disabled" onclick="how--; if (how==0) this.form.elements['prev'].disabled = this.onclick" />
+									<input id="butt2" name="next" type="button" value="Następne" onclick="this.form.elements['prev'].disabled = !this.onclick; how++" />
+								</form>
+								
+							</section>
+							
+						</div>
+						<!-- Section with quote to dived article from footer -->
+						<section id="cite">
+						
+							<div id="cytat">
+								<q>...żaden człowiek nie jest samotną wyspą...<br />zawsze potrzebuje innych ludzi...</q><br /><br /><cite>Paulo Coelho</cite>
+							</div>
+							
+							<div id="foto">
+								Zdjęcie Paulo Coelho
+							</div>
+							
+							<div style="clear: both;"></div>
+							
+						</section>
+						
+					</article>
+					
+				</main>
+				<!-- Footer of website -->
+				<footer>
+					Wyżal Się &copy; 2018 All rights reserved
+				</footer>
+				
+			</div>
+			<!-- Location of scripts to make sticky navigation and control errors in forms -->
+			<script src="script.js"></script>
+			<script src="jquery.js"></script>
+			<script>
+				$(document).ready(function() {
+					var NavY = $('#menu').offset().top;
+		
+					var stickyNav = function(){
+						var ScrollY = $(window).scrollTop();
+		
+						if (ScrollY > NavY) {
+							$('#menu').addClass('sticky');
+						} else {
+							$('#menu').removeClass('sticky');
+						}
+					};
+		
+					stickyNav();
+		
+					$(window).scroll(function() {
+							stickyNav();
+					});
+				});
+				
+				var how=0;
+			</script>
+		
+	</body>
+	
+</html>

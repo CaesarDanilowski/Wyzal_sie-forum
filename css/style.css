@@ -1,0 +1,240 @@
+body {
+	background-color: #222;
+	font-size: 20px;
+	font-family: 'Lato', sans-serif;
+	color: #000;
+}
+
+#container {
+	width: 1000px;
+	margin: 0 auto 0 auto;
+}
+
+#log {
+	width: 152px;
+	height: 94px;
+	margin: 60px auto 70px auto;
+	background-image: url(../images/logo.jpg);
+	text-indent: -9999px;
+}
+
+ul#menu {
+	height: 40px;
+	padding-top: 20px;
+	background-color: #111;
+	font-size: 18px;
+	text-align: center;
+}
+
+ul#menu > li {
+	display: inline-block;
+	border-right: 2px dotted #FFF;
+	padding: 0 20px 0 18px;
+} 
+
+ul#menu > li:first-child {
+	border-left: 2px dotted #FFF;
+	margin-left: -35px;
+}
+
+ul#menu a {
+	text-decoration: none;
+	color: #2222AA;
+	font-weight: 600;
+	transition: all 0.1s ease-in-out;
+}
+
+ul#menu a:hover {
+	color: #FFF;
+}
+
+.sticky {
+	position: fixed;
+	width: 960px;
+	margin-top: 0;
+	opacity: 0.9;
+	top: 0;
+	z-index: 100;
+}
+
+#content {
+	margin-top: 50px;
+	height: 1120px;
+	padding: 10px 40px 20px 40px;
+	background-color: #FFF;
+}
+
+aside#ad {
+	width: 202px;
+	border: 1px dashed #FFF;
+	float: left;
+	margin-top: 24px;
+	margin-left: 16px;
+	height: 612px;
+}
+
+h2#hd {
+	height: 68px;
+	text-align: left;
+	border-bottom: 2px dashed #000;
+}
+
+section.wpis {
+	height: 281px;
+	margin-top: 50px;
+}
+
+.date {
+	float: left;
+	font-size: 17px;
+}
+
+.nick {
+	margin-left: 18px;
+	padding-left: 14px;
+	border-left: 1px solid #000;
+	float: left;
+	font-size: 17px;
+}
+
+.text {
+	height: 200px;
+	padding-bottom: 45px;
+	margin: 30px auto 80px auto;
+	border-bottom: 1px solid #000;
+}
+
+input#butt1 {
+	background-color: #22BB22;
+	color: #FFF;
+}
+
+input#butt2 {
+	background-color: #22BB22;
+	color: #FFF;
+	margin-left: 735px;
+}
+
+section#cite {
+	padding: 45px 20px 20px 20px;
+	height: 240px;
+	background-color: #111;
+}
+
+#cytat {
+	margin-top: 30px;
+	margin-left: 25px;
+	float: left;
+	font-size: 30px;
+	color: #FFF;
+}
+
+#foto {
+	float: left;
+	width: 220px;
+	height: 220px;
+	text-indent: -9999px;
+	margin-left: 100px;
+	background-image: url(../images/paulocoelho.jpg);
+}
+
+footer {
+	height: 35px;
+	background-color: #000;
+	font-size: 16px;
+	font-weight: 700;
+	color: #FFF;
+	text-align: center;
+	padding-top: 15px;
+}
+
+input[type=text] {
+	width: 300px;
+	background-color: #EFEFEF;
+	color: #666;
+	border: 2px solid #DDD;
+	border-radius: 5px;
+	font-size: 20px;
+	padding: 10px;
+	box-sizing: border-box;
+	outline: none;
+	margin-top: 10px;
+}
+
+textarea {
+	width: 300px;
+	background-color: #EFEFEF;
+	color: #666;
+	border: 2px solid #DDD;
+	border-radius: 5px;
+	font-size: 20px;
+	padding: 10px;
+	box-sizing: border-box;
+	outline: none;
+	margin-top: 10px;
+}
+
+input[type=text]:focus {
+	-webkit-box-shadow: 0px 0px 10px 2px rgba(204,204,204,0.9);
+	-moz-box-shadow: 0px 0px 10px 2px rgba(204,204,204,0.9);
+	box-shadow: 0px 0px 10px 2px rgba(204,204,204,0.9);
+	border: 2px solid #A5CDA5;
+	background-color: #E9F3E9;
+	color: #428C42;
+}
+
+input[type=submit] {
+		width: 300px;
+		background-color: #36B03C;
+		font-size: 20px;
+		color: white;
+		padding: 15px 10px;
+		margin-top: 20px;
+		border: none;
+		border-radius: 5px;
+		cursor: pointer;
+		letter-spacing: 2px;
+		outline: none;
+}
+
+input[type=submit]:focus {
+	-webkit-box-shadow: 0px 0px 15px 5px rgba(204,204,204,0.9);
+	-moz-box-shadow: 0px 0px 15px 5px rgba(204,204,204,0.9);
+	box-shadow: 0px 0px 15px 5px rgba(204,204,204,0.9);
+}
+
+input[type=submit]:hover {
+	background-color: #37B93D;
+}
+
+input::-webkit-input-placeholder {
+	color: #999;
+}
+
+input:focus::-webkit-input-placeholder {
+	color: #428C42;
+}
+
+input:-moz-placeholder {
+	color: #999;
+}
+
+input:focus:-moz-placeholder {
+	color: #428C42;
+}
+
+input::-moz-placeholder {
+	color: #999;
+}
+
+input:focus::-moz-placeholder {
+	color: #429C42;
+}
+
+input:-ms-input-placeholder {
+	color: #999;
+}
+
+input:focus:-ms-input-placeholder {
+	color: #428C42;
+}
