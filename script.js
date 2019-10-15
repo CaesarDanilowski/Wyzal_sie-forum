@@ -1,5 +1,4 @@
-function check(form)
-{
+function check(form){
 	for (i = 0; i < form.length; i++)
 	{
 		var pole = form.elements[i];
@@ -12,8 +11,7 @@ function check(form)
 	return true;
 }
 
-function load(form)
-{
+function load(form) {
 	var pole = form.elements[2];
 	
 	if (pole[0].value == "" && pole[1].value == "")
